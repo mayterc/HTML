@@ -1,0 +1,89 @@
+
+h1 {
+    color:cadetblue;
+    background-color: antiquewhite;
+    padding: 10px;
+    border: cadetblue;
+    text-align: center;
+    font-family: 'Festive', cursive;
+    margin: 0px;
+}
+
+table{
+    background-color: cadetblue;
+
+}
+nav{ 
+    background-color: gray;
+    padding: 15px;
+    font-family:'Courier New', Courier, monospace;
+}
+nav a{
+    color: white;
+    background-color: gray;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover{
+    background-color: thistle;
+    color:black;
+}
+
+nav a:visited{
+    text-align: center;
+    color:white;
+    text-decoration:transparent;
+}
+
+ol{
+    list-style: none;
+    counter-reset: contador;
+}
+ol li{
+    counter-increment: contador;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ol li::before{
+    content: "saludos " counter(contador) ':  ';
+}
+
+ol li::after{
+    content: '.';
+}
+dl {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p span.n{
+    color:tomato;
+    border:1px solid black;
+    padding: 2px;
+
+}
+
+div{
+    background-color: cadetblue;
+    text-align:center ;
+    font-family:cursive;
+}
+div.lugar{
+    background-color: #45b39d;
+    text-align:center ;
+    font-family:cursive;
+    margin: 0px 250px ; 
+
+}
+div.tiempo{
+    background-color: 
+    #138d75;
+    font-family:cursive;
+    text-align:center ;
+    margin: -20px 300px ; 
+}
+ div.lugar h2{
+     padding: -100px;
+     border:10px solid #F9E79F ;
+ }
+
